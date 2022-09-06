@@ -110,11 +110,11 @@ function DarkraiX:Window(text,gamenme,logo,keybind)
 	local MCNR = Instance.new("UICorner")
 	MCNR.Name = "MCNR"
 	MCNR.Parent = Main
-
+-------------------here-----------
 	local Top = Instance.new("Frame")
 	Top.Name = "Top"
 	Top.Parent = Main
-	Top.BackgroundColor3 = Color3.fromRGB(218, 133, 65)
+	Top.BackgroundColor3 = Color3.fromRGB(87, 88, 87)
 	Top.Size = UDim2.new(0, 656, 0, 27)
 
 	local TCNR = Instance.new("UICorner")
